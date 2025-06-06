@@ -20,7 +20,7 @@ func main() {
 	// Get CPU usage
 	cpuPercent, err := cpu.Percent(time.Second, false)
 	if err != nil {
-		fmt.Println("Error fetching CPU usage:", err)
+		fmt.Println("Error fetching CPU usage in this:", err)
 		return
 	}
 	cpuUsage := cpuPercent[0]
