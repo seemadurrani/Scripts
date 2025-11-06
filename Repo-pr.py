@@ -1,6 +1,6 @@
 # Usage $file_name <token> <repository-name>
 
-
+##this is a python script 
 from github import Github
 import sys
 try:
